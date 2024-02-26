@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Sửa"
+        android:id="@+id/add_item_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon_add_item"/>
+    <item
+        android:title="Sửa"
+        android:id="@+id/edit_item_menu"
+        app:showAsAction="never"/>
+    <item
+        android:title="Xếp"
+        android:id="@+id/sort_item_menu"
+        app:showAsAction="never"/>
+    <item
+        android:title="Cài đặt"
+        android:id="@+id/settings_item_menu"
+        app:showAsAction="never"/>
+<!--    <item-->
+<!--        android:title="Main menu"-->
+<!--        android:id="@+id/main_menu_item"-->
+<!--        app:showAsAction="always"-->
+<!--        android:icon="@drawable/icon_main_menu">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:title="Sửa"-->
+<!--                android:id="@+id/edit_item"-->
+<!--                app:showAsAction="never"/>-->
+<!--            <item-->
+<!--                android:title="Xếp"-->
+<!--                android:id="@+id/sort_item"-->
+<!--                app:showAsAction="never"/>-->
+<!--            <item-->
+<!--                android:title="Cài đặt"-->
+<!--                android:id="@+id/settings_item"-->
+<!--                app:showAsAction="never"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
